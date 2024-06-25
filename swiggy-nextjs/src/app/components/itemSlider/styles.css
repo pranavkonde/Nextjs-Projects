@@ -1,0 +1,39 @@
+.slider{
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: -90px;
+}
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.food-item img {
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -50px;
+
+}
+
+.slider-button{
+    border-radius: 60%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 227, 224);
+    margin-left: 10px;
+    padding: 5px ;
+    height: 40px;
+    width: 40px;
+
+    
+}
+.slide-container{
+    position: absolute;
+    right: 180px;
+}

@@ -1,0 +1,87 @@
+.restaurant-container{
+    padding: 20px; 
+    font-weight: bold;
+  
+    height: auto;
+    width: 900px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    display:  flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.restaurant-container img{
+   
+    
+    border-radius: 20px;
+}
+.rest-details{
+    display: block;
+    align-items: center;
+}
+
+.menu-card{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 900px;
+    padding-bottom: 60px;
+    margin: 5px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    overflow: hidden;
+   
+}
+
+.menu-card img{
+    height: 150px;
+    width: 150px;
+    justify-content: end;
+    border-radius: 20px;
+    
+}
+.item-details{
+    border: 2 px solid blue;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap:    10px;
+    text-wrap: wrap;
+    width: 70%;
+    padding: 20px;
+
+}
+.image-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    }
+
+.add-button{   
+    height: 30PX;
+    width: 70PX;
+    color: rgb(2, 165, 2);
+    padding: 2PX;
+    border-radius: 2PX;
+    border: 1px solid gray;
+    margin: 0px 40px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.add-button:hover{
+    background-color: rgb(228, 227, 227);
+}
+
+
+.abc{
+    position: sticky;
+}

@@ -1,0 +1,74 @@
+.top-restaurant{
+    display: flex;
+    justify-content: inline;
+}
+.slider{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.food-item img {
+    width:  300px;
+    height: 200px;
+}
+.restraunt{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -50px;
+    
+
+
+}
+h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.slider-button{
+    border-radius: 60%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 227, 224);
+    margin-left: 10px;
+    padding: 5px ;
+   
+    height: 40px;
+    width: 40px;
+
+
+    
+}
+#restaurent-button{
+    position: absolute;
+    right: 180px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: -35px;
+}
+
+.Card{
+   padding: 200px;
+}
+
+/* p::selection{
+    color: orange;
+} */
+p{
+    margin-bottom: 5px;
+    
+}

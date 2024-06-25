@@ -1,0 +1,44 @@
+.restaurant-card{
+    justify-content: inline;
+    display: flex;
+}
+
+/* img{
+    height: 10px;
+    width: 200px;
+} */
+/* 
+.food-restraunt {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    height: auto;
+    width: 500px;
+} */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2px;
+ }
+.card{
+    height: 140px;
+    width: 250px;
+}
+.img{
+   
+    border-radius: 20px;
+    
+}
+p{
+    display: flex;
+}
+
+.temp-h1{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -50px;
+    padding-left: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
